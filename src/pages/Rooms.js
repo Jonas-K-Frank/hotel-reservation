@@ -1,5 +1,8 @@
+import Hero from "../components/Hero"
 const Rooms = () => {
-	return <div>Hello from Rooms</div>;
+	return <div>
+		<Hero hero="roomsHero"></Hero>
+	</div>;
 };
 
 export default Rooms;
