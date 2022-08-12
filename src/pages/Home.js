@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
+import Services from "../components/Services"
 const Home = () => {
 	return (
 		<div>
@@ -9,7 +10,7 @@ const Home = () => {
 					<Link to="/rooms" className="btn-primary">Se vores smukke værelser</Link>
 				</Banner>
 			</Hero>
-			;
+			<Services />
 		</div>
 	);
 };
