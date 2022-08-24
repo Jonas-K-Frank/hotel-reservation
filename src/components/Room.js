@@ -14,7 +14,8 @@ const Room = ({ room }) => {
 					<h6>€ {price}</h6>
 					<p>per night</p>
 				</div>
-				<Link className="btn-primary room-link" to={`/rooms/${slug}`}>
+				<Link  to={`/rooms/${slug}`}
+                className="btn-primary room-link">
 					Se mere
 				</Link>
 			</div>
@@ -27,7 +28,7 @@ Room.propTypes = {
 	room: PropTypes.shape({ 
         name: PropTypes.string.isRequired,
         slug: PropTypes.string.isRequired,
-        image: PropTypes.arrayOf(PropTypes.string).isRequired,
+        images: PropTypes.arrayOf(PropTypes.string).isRequired,
         price: PropTypes.number.isRequired,
     
     }),

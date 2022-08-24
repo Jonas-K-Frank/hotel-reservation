@@ -5,7 +5,7 @@ const Rooms = () => {
 	return (
 		<div>
 			<Hero hero="roomsHero">
-				<Banner title="our rooms">
+				<Banner title="Vores værelser">
 					<Link to="/" className="btn-primary">
 						Tilbage til forsiden
 					</Link>
